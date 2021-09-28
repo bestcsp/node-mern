@@ -7,3 +7,7 @@ change this in node_modules
         var utf8Encoder = new util.TextEncoder('utf-8');
         const utf8Decoder = new util.TextDecoder("utf-8", { ignoreBOM: true });
 paste these line and remove utf8Encoder and utf8Encoder
+
+1- to run backend 
+        node run dev // for developer
+        node run start //for project
