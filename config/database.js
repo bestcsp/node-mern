@@ -10,6 +10,9 @@ exports.connect = () => {
       useUnifiedTopology: true,
       // useCreateIndex: true,
       // useFindAndModify: false,
+    //   useNewUrlParser: true,
+    // useCreateIndex: true,
+    useUnifiedTopology: true
     })
     .then(() => {
       console.log("Successfully connected to database");
